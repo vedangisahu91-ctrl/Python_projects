@@ -8,12 +8,15 @@ st.title("💻 Quiz Game")
 
 # Questions dictionary
 questions = {
-    "What does CPU stand for?": "central processing unit",
-    "What does GPU stand for?": "graphics processing unit",
-    "What does RAM stand for?": "random access memory",
-    "What does PSU stand for?": "power supply",
-    "What does HTML stand for?": "hyper text markup language",
-    "What does CSS stand for?": "cascading style sheets"
+    "Process of extracting, transforming, and loading data?" : "etl",
+    "Storing structured data in tables?" : "sql",
+    "Central repository for raw data?" : "datalake",
+    "Structured analytical storage system?" : "warehouse",
+    "Real-time distributed messaging system?" : "kafka",
+    "Google’s data warehouse?" : "bigquery",
+    "Dividing large datasets into smaller chunks?" : "partitioning", 
+    "Removing duplicate records?" : "deduplication",
+    "Combining tables?" : "join"
 }
 
 # Initialize session state
