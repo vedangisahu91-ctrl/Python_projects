@@ -49,11 +49,11 @@ if st.session_state.started:
 
             if answer.strip().lower() == correct_ans:
                 st.success("Correct Answer ✅")
-                time.sleep(5)
+                time.sleep(3)
                 st.session_state.score += 1
             else:
                 st.error("Incorrect Answer ❌")
-                time.sleep(5)
+                time.sleep(3)
 
             st.session_state.current += 1
             st.rerun()
